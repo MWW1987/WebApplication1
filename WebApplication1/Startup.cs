@@ -32,6 +32,7 @@ namespace WebApplication1
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseRequestLocalization();
             }
             else
             {
